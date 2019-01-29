@@ -1,9 +1,46 @@
+/*********************** TAG Selectors ***********************/
 h1 {
   color: red;
   font-size: 50px;
 }
 
-img {
-  outline-color: red;
-  outline-style: double;
+/* Pseudo Class Hover! */
+img:hover {
+  background-color: blue;
+}
+
+/*********************** CLASS Selectors ***********************/
+/** Class can be used many times **/
+/** Each element can have many classes **/
+
+.good {
+  background-color: green;
+}
+
+.bad {
+  background-color: red;
+}
+
+/* Header table */
+.head {
+  background-color: blue;
+  border-color: blue;
+  border-style: solid;
+  width: 100%;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/*********************** ID Selectors ***********************/
+/** IDs must be unique, should use class. This is just an example **/
+/** Only one ID per element **/
+
+#heading {
+  background-color: blue;
+  border-color: blue;
+  border-style: solid;
+  color: green;
+  width: 100%;
 }
